@@ -134,6 +134,15 @@ DATABASE_URL=sqlite:///./hotel.db
 CORS_ORIGINS=["http://localhost:5173"]
 COMMISSION_RATE=0.10
 ```
+### Backend `.env` Create Brevo account & api key
+
+```
+EMAIL_PROVIDER=brevo
+BREVO_API_KEY= paste api key
+FROM_EMAIL= mail id
+FROM_NAME= Hotel name
+```
+
 
 ### Frontend `.env`
 ```
